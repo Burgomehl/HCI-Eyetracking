@@ -14,6 +14,9 @@ namespace Tobii.EyeTracking
         /// false otherwise.
         /// </summary>
         public bool HasGazeFocus { get; private set; }
+		public GameController gameController;
+		bool lookedAtMonster = false;
+		public GameObject cube;
 
         void OnEnable()
         {
@@ -30,6 +33,19 @@ namespace Tobii.EyeTracking
         {
             WarnIfAttachedToUIElement();
         }
+
+		void Update(){
+			if (!HasGazeFocus) {
+				if (lookedAtMonster) {
+					gameController.lostLive ();
+					lookedAtMonster = false;
+				}
+			} else {
+				transform.Rotate (Vector3.forward);
+				lookedAtMonster = true;
+				cube.transform.Rotate(Vector3.forward);
+			}
+		}
 
         /// <summary>
         /// Function called from the gaze focus handler when the gaze focus for

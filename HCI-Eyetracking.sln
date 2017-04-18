@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI-Eyetracking", "Assembly-CSharp.csproj", "{94ADE4B8-1365-9D2B-D8F0-7CC58F2D2849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI-Eyetracking", "Assembly-CSharp-Editor.csproj", "{B61DE832-FEE1-D1E8-9E5F-77E23E4F207F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94ADE4B8-1365-9D2B-D8F0-7CC58F2D2849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ADE4B8-1365-9D2B-D8F0-7CC58F2D2849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ADE4B8-1365-9D2B-D8F0-7CC58F2D2849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ADE4B8-1365-9D2B-D8F0-7CC58F2D2849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B61DE832-FEE1-D1E8-9E5F-77E23E4F207F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61DE832-FEE1-D1E8-9E5F-77E23E4F207F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61DE832-FEE1-D1E8-9E5F-77E23E4F207F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61DE832-FEE1-D1E8-9E5F-77E23E4F207F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
